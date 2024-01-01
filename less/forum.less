@@ -1,0 +1,155 @@
+.App-header {
+    /*height: ~"var(--header-height) + 1";*/
+    padding-top: 38px;
+    transition: height .3s ease-out,padding-top .3s ease-out;
+
+    .Header-controls {
+        li.item-top-bar {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            background: var(--header-control-bg);
+            margin-left: 0;
+            height: 30px;
+            transition: height .3s ease-out
+        }
+    }
+
+}
+
+.App-content {
+    margin-top: 30px;
+}
+
+.scrolled .App-header {
+    padding-top: 9px;
+    height: var(--header-height);
+}
+
+.TopBar .container, .TopBar ul:not(.Dropdown-menu) {
+    height: 100%
+}
+
+.TopBar .container {
+    display: block;
+}
+
+.TopBar {
+
+    ul:not(.Dropdown-menu) {
+        margin-left: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-end;
+
+        li.TopBar-item {
+            display: flex;
+            align-items: center;
+            .ButtonGroup>.Button {
+                float: unset;
+            }
+        }
+        a:not(.Dropdown-menu li a) {
+            background-color: transparent;
+            padding: 6px 0;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: bold;
+            color: var(--ice-white)
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+    }
+    
+}
+
+//(min-width: 768px) 
+@media @tablet-up {
+    .scrolled {
+        .App-header {
+            .Header-controls {
+                li.item-top-bar {
+                    height:3px;
+                    background: var(--primary-color);
+
+                    .TopBar{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+ 
+    .TopBar {
+        height: 100%;
+
+        li.TopBar-item:not(:first-child) {
+            margin-left:20px
+        }
+
+        li.TopBar-item:last-child {
+            padding-right: 13px
+        }
+    }
+ 
+}
+
+//(max-width: 767.98px)
+@media @phone {
+    .App-content {
+        margin-top: 0px;
+    }
+    .App-header {
+        .Header-controls {
+            li.item-top-bar {
+                position:static;
+                width: auto;
+                height: auto;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 10px;
+                padding-left: 10px
+            }
+        }
+    }
+
+    .TopBar:not(.Dropdown-menu) {
+        margin-top:10px;
+        padding: 10px 0px;
+
+        a {
+            font-size:13px
+        }
+        
+        ul:not(.Dropdown-menu ul) {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            display: block;
+
+            li.TopBar-item {
+                display: flex;
+                align-items: center;
+                .ButtonGroup>.Button {
+                    float: left;
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width: 768px) and (min-width: 768px) {
+    .App-header {
+        height: 80px;
+    }
+}
