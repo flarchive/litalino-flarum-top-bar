@@ -2,13 +2,19 @@
 
 > **Read-only archive of released versions of litalino/flarum-top-bar.** Not for installation: use [Packagist](https://packagist.org/packages/litalino/flarum-top-bar) or the [upstream repository](https://github.com/Litalino/flarum-top-bar).
 
-**0** versions archived · Latest: [`1.5.1`](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.5.1) · License: `MIT` · Flarum: `^1.2`
+**7** versions archived · Latest: [`1.5.1`](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.5.1) · License: `MIT` · Flarum: `^1.2`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2023-12-28 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.0.0) |
+| `1.1.0` | 2023-12-28 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.1.0) |
+| `1.2.0` | 2023-12-28 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.2.0) |
+| `1.3.0` | 2023-12-31 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.3.0) |
+| `1.4.0` | 2024-01-01 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.4.0) |
+| `1.5.0` | 2024-01-10 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.5.0) |
+| `1.5.1` | 2024-01-10 | `^1.2` | [Browse](https://github.com/flarchive/litalino-flarum-top-bar/tree/archive/v1.5.1) |
 
 Catalog entry: [packages/litalino-flarum-top-bar.json](https://github.com/flarchive/archive-index/blob/main/packages/litalino-flarum-top-bar.json)
 
